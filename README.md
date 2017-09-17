@@ -6,3 +6,6 @@
 GetBalance
 
 GetUtxo
+
+## NuGet
+The package can be downloaded from NuGet.
