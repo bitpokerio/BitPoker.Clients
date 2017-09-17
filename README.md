@@ -1,10 +1,8 @@
 # BitPoker.Clients
-.Net clients for BitPoker
+.Net service clients for BitPoker, to third parties such as block explorers.
 
-## Repo structure
+## Blockchain
 
-/src
+GetBalance
 
-/src/core
-
-/src/full
+GetUtxo
