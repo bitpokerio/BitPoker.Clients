@@ -23,7 +23,7 @@ namespace BitPoker.Clients
         {
             using (HttpClient client = new HttpClient())
             {
-                using (HttpResponseMessage response = await client.GetAsync(String.Format("{0}/{1}/summary", _host, address))
+                using (HttpResponseMessage response = await client.GetAsync(String.Format("/balances/{0}/{1}/summary", _host, address))
                 {
                     response.EnsureSuccessStatusCode();
                     String json = await response.Content.ReadAsStringAsync();
