@@ -8,6 +8,6 @@ namespace BitPoker.Clients
     /// </summary>
     public interface IBalanceClient
     {
-        Task<Int64> GetBalanceAsync(String address, Int32 confirmations);
+        Task<UInt64> GetBalanceAsync(String address, Int32 confirmations);
     }
 }

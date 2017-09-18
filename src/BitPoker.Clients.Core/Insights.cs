@@ -4,7 +4,7 @@ namespace BitPoker.Clients
 {
     public class Insights : IBalanceClient
     {
-        public Task<long> GetBalanceAsync(string address, int confirmations)
+        public Task<UInt64> GetBalanceAsync(string address, int confirmations)
         {
             throw new System.NotImplementedException();
         }
